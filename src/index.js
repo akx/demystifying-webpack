@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import CatImageURL from './cat.png';
 import MiauSoundURL from './miau.mp3';
+import style from './style.styl';
 
 const playMiau = () => {
 	const el = Object.assign(
